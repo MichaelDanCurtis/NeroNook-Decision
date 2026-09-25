@@ -1,0 +1,13 @@
+[project]
+name = "nero-decision"
+version = "0.1.0"
+description = "Independent local decision experiments for Nero's continual agent"
+requires-python = ">=3.12"
+dependencies = ["laya-mlx", "pytest>=8,<10"]
+
+[tool.uv.sources]
+laya-mlx = { git = "https://github.com/mizorewww/laya-mlx", rev = "0a859518634112655cb97c745dbf04f5191aaf13" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

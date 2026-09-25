@@ -1,0 +1,46 @@
+{
+  "synthetic": true,
+  "execution": false,
+  "trace": [
+    {
+      "event": "progress",
+      "revision": 1,
+      "quiet": false,
+      "decision": "observe"
+    },
+    {
+      "event": "progress",
+      "revision": 2,
+      "quiet": false,
+      "decision": "observe"
+    },
+    {
+      "event": "needs_input",
+      "revision": 3,
+      "quiet": true,
+      "decision": "inbox"
+    },
+    {
+      "event": "needs_input",
+      "revision": 4,
+      "quiet": false,
+      "decision": "duplicate"
+    },
+    {
+      "event": "completed",
+      "revision": 5,
+      "quiet": false,
+      "decision": "suggest_notification"
+    },
+    {
+      "event": "completed",
+      "revision": 6,
+      "quiet": false,
+      "decision": "duplicate"
+    },
+    {
+      "event": "failed",
+      "decision": "ignore"
+    }
+  ]
+}
